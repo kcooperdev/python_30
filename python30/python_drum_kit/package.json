@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "watch": "python app.py && npx tailwindcss -i ./static/src/input.css -o ./static/dist/css/output.css --watch"
+    "watch": "npx tailwindcss -i ./static/src/input.css -o ./static/dist/css/output.css --watch && python app.py "
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
